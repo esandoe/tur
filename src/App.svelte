@@ -1,9 +1,9 @@
 <script lang="ts">
-  import Counter from './lib/Counter.svelte'
+  import PackingList from "./lib/PackingList/PackingList.svelte";
 </script>
 
 <main>
   <div class="card">
-    <Counter />
+    <PackingList />
   </div>
 </main>
