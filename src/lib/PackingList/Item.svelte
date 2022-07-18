@@ -1,14 +1,10 @@
 <script type="ts">
+  import Button from "../ui/Button.svelte";
+
   export let label;
 </script>
 
-<button>
+<Button variant="dark">
   <input type="checkbox" />
   {label}
-</button>
-
-<style>
-  button {
-    text-align: left;
-  }
-</style>
+</Button>
