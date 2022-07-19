@@ -71,6 +71,6 @@
 
   button:focus,
   button:focus-visible {
-    outline: 6px auto black;
+    border-color: inherit;
   }
 </style>
